@@ -15,8 +15,8 @@ import Hero from "../../components/Hero";
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen">
-      <Navbar className="w-full max-w-4xl flex justify-between items-center">
+    <div className="min-h-screen">
+      <Navbar className="fixed top-0 left-0 right-0 w-full max-w-4xl mx-auto flex justify-between items-center p-4 bg-transparent z-50">
         <NavbarBrand className="flex justify-center w-full">
           <p className="font-bold">Grood</p>
         </NavbarBrand>
@@ -27,12 +27,14 @@ export default function Home() {
         </NavbarContent>
         <NavbarContent className="flex justify-end w-full">
           <NavbarItem className="hidden lg:flex">
-
             <Link href="#">Login</Link>
           </NavbarItem>
         </NavbarContent>
       </Navbar>
-      <Footer />
+      {/* <div className="pt-20">
+        <Hero />
+        <Footer />
+      </div> */}
     </div>
   );
 }
