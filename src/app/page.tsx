@@ -35,11 +35,11 @@ export default function Home() {
       <div className="flex-grow">
       <div className="text-green-500"> 
       <Hero />
-      <div className="flex justify-center mt-6"> 
+      {/* <div className="flex justify-center mt-6"> 
       <Button radius="md" color="success" variant="solid">
           Sign Up!
         </Button>
-        </div>
+        </div> */}
       </div>
 
       </div>

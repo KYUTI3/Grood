@@ -19,11 +19,11 @@ const Hero = () => (
         <p className="text-xl bg-gradient-to-r from-green-500 to-sky-500 bg-clip-text text-transparent">
           The Typing Test Simulator for Ideal Improvement
         </p>
-        {/* <div className="mt-6">
+        <div className="flex justify-center mt-6">
         <Button radius="md" color="success">
           Sign Up!
         </Button>
-      </div> */}
+      </div>
       </div>
     </div>
   </div>
