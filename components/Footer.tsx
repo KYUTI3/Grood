@@ -2,10 +2,12 @@ import React from "react";
 
 const Footer = () => (
     <div className="">
-     <div className="flex-row py-8 px-4 my-2 space-y-6 bottom-0 justify-center text-lg">
-       <div className="font-extrabold text-lg text-green-500 "> 
+     <div className="font-sans flex-row py-8 px-4 my-2 space-y-6 bottom-0 justify-center">
+       <div className="font-extrabold text-lg"> 
            <p className=""> Made with Psuedo Innovation and Brainrot </p>
-           <p className="underline-offset-1"> By: Luis Cardenas </p>
+        <div className="underline-offset-1"> 
+           <p> By: Luis Cardenas </p>
+        </div>
        </div>
      </div>
     </div>

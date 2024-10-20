@@ -16,7 +16,7 @@ const Hero = () => (
    </div>
     <div className="flex-col"> 
       <div className="font-bold"> 
-        <p className="bg-gradient-to-r from-green-500 to-sky-500"> Welcome to <p className="underline-offset-1">Grood</p> </p>
+        <p className="bg-gradient-to-r from-green-500 to-sky-500 underline-offset-1"> Welcome to Grood </p>
         <p className="bg-gradient-to-r from-green-500 to-sky-500">The Typing Test Simulator for Ideal Improvement</p>
       </div>
     <div className="text-black">
