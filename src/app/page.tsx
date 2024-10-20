@@ -11,7 +11,6 @@ import {
 } from "@nextui-org/navbar";
 import {Button, ButtonGroup} from "@nextui-org/button";
 
-
 export default function Home() {
   return (
     <div className="items-center justify-items-center min-h-screen p-2 pb-4 gap-16">
@@ -43,7 +42,6 @@ export default function Home() {
          </NavbarContent>
       </Navbar>
 
-      
     </div>
   );
 }
