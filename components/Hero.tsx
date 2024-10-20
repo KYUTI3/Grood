@@ -19,8 +19,8 @@ const Hero = () => (
         <p className="bg-gradient-to-r from-green-500 to-sky-500"> Welcome to <p className="underline-offset-1">Grood</p> </p>
         <p className="bg-gradient-to-r from-green-500 to-sky-500">The Typing Test Simulator for Ideal Improvement</p>
       </div>
-    <div className="">
-    <Button radius="md">
+    <div className="text-black">
+    <Button radius="md" color="success">
       Sign Up!
     </Button>
     </div>
