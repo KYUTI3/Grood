@@ -35,7 +35,7 @@ export default function Home() {
       <div className="flex-grow">
       <Hero />
       </div>
-      <div className="w-full text-center p-4 text-green-500">
+      <div className="w-full text-center p-4 text-green-500 underline-offset-2">
         <Footer />
       </div>
     </div>

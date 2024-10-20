@@ -4,15 +4,15 @@ import Link from "next/link";
 import { Button } from "@nextui-org/button";
 
 const Hero = () => (
-  <div className="flex flex-col items-center justify-center min-h-screen bg-green-600 text-white">
-    <div className="flex flex-col items-center">
+  <div className="flex flex-col items-center justify-center min-h-screen bg-green-600 text-white space-x-4">
+    <div className="flex flex-row items-center">
       <Image
         src="/logo.png"
         width={250}
         height={250}
         alt="Picture of Mascot"
       />
-      <div className="text-center mt-4">
+      <div className="text-center mt-4 flex flex-col">
         <p className="text-4xl font-bold bg-gradient-to-r from-green-500 to-sky-500 bg-clip-text text-transparent underline-offset-1">
           Welcome to Grood
         </p>
