@@ -18,6 +18,9 @@ const Hero = () => (
         <p className="font-bold"> Welcome to <p className="underline-offset-1">Grood</p> </p>
         <p>The Typing Test Simulator for Ideal Improvement</p>
     </div>
+    <div>
+        
+    </div>
   </div>
  </div>
 );

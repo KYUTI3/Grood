@@ -10,38 +10,32 @@ import {
   NavbarMenuItem
 } from "@nextui-org/navbar";
 import {Button, ButtonGroup} from "@nextui-org/button";
+import Footer from "../../components/Footer";
+import Hero from "../../components/Hero";
 
 export default function Home() {
   return (
-    <div className="items-center justify-items-center min-h-screen p-2 pb-4 gap-16">
-      <Navbar> 
-        <NavbarBrand>
-          <p className="font-bold"> Grood </p>
+    <div className="flex flex-col items-center justify-center min-h-screen">
+      <Navbar className="w-full max-w-4xl flex justify-between items-center">
+        <NavbarBrand className="flex justify-center w-full">
+          <p className="font-bold">Grood</p>
         </NavbarBrand>
-         <NavbarContent>
-         <NavbarItem>
-          <Link color="foreground" href="#">
-            About
-          </Link>
-        </NavbarItem>
-        <NavbarItem isActive>
-          <Link href="#" aria-current="page">
-            Team
-          </Link>
-        </NavbarItem>
+        <NavbarContent className="flex justify-center w-full">
+          <NavbarItem>
+            <Link href="#">About</Link>
+          </NavbarItem>
         </NavbarContent>
-      <NavbarContent justify="end">
-        <NavbarItem className="hidden lg:flex">
-          <Link href="#">Login</Link>
-        </NavbarItem>
-        <NavbarItem>
-          <Button as={Link} color="primary" href="#" variant="flat">
-            Sign Up
-          </Button>
-        </NavbarItem>
-         </NavbarContent>
+        <NavbarContent className="flex justify-end w-full">
+          <NavbarItem className="hidden lg:flex">
+            <Link href="#">Login</Link>
+          </NavbarItem>
+          <NavbarItem>
+            <Button as={Link} color="primary" href="#" variant="flat">
+              Sign Up
+            </Button>
+          </NavbarItem>
+        </NavbarContent>
       </Navbar>
-
     </div>
   );
 }
