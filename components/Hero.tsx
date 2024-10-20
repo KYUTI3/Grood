@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import {Button, ButtonGroup} from "@nextui-org/button";
 
-const hero = () => (
+const Hero = () => (
  <div className="">
   <div className="flex-row bg-green-600">
    <div className="">
@@ -18,9 +18,8 @@ const hero = () => (
         <p className="font-bold"> Welcome to <p className="underline-offset-1">Grood</p> </p>
         <p>The Typing Test Simulator for Ideal Improvement</p>
     </div>
-
   </div>
  </div>
 );
 
-export default hero;
+export default Hero;
