@@ -12,6 +12,7 @@ import {
 import {Accordion, AccordionItem} from "@nextui-org/accordion";
 import {Button, ButtonGroup} from "@nextui-org/button";
 import Footer from "../../components/Footer";
+// import Accord from "../../components/Accordion";
 
 
 export default function Home() {
@@ -55,19 +56,11 @@ export default function Home() {
           </Button>
         </div>
       </div>
+       <div className=""> 
+        {/* <Accord /> */}
+      </div> 
     </div>
       </div>
-      
-    <div> 
-      <Accordion>
-      <AccordionItem aria-label="Accordion 1" title="What is Grood really">
-      {accOne}
-      </AccordionItem>
-      <AccordionItem aria-label="Accordion 2" title="How does it work?">
-       {accTwo}
-      </AccordionItem>
-    </Accordion>
-    </div>
       <div className="w-full text-center p-4 text-green-500 underline-offset-2">
         <Footer />
       </div>
