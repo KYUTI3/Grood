@@ -33,7 +33,15 @@ export default function Home() {
         </NavbarContent>
       </Navbar>
       <div className="flex-grow">
+      <div className="text-green-500"> 
       <Hero />
+      <div className="flex justify-center mt-6"> 
+      <Button radius="md" color="success" variant="solid">
+          Sign Up!
+        </Button>
+        </div>
+      </div>
+
       </div>
       <div className="w-full text-center p-4 text-green-500 underline-offset-2">
         <Footer />

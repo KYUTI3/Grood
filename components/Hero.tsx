@@ -4,7 +4,7 @@ import Link from "next/link";
 import { Button } from "@nextui-org/button";
 
 const Hero = () => (
-  <div className="flex flex-col items-center justify-center min-h-screen bg-green-600 text-white space-x-4">
+  <div className="flex flex-col items-center justify-center min-h-screen text-white space-x-4 space-y-8">
     <div className="flex flex-row items-center">
       <Image
         src="/logo.png"
@@ -19,11 +19,11 @@ const Hero = () => (
         <p className="text-xl bg-gradient-to-r from-green-500 to-sky-500 bg-clip-text text-transparent">
           The Typing Test Simulator for Ideal Improvement
         </p>
-      </div>
-      <div className="mt-6">
+        {/* <div className="mt-6">
         <Button radius="md" color="success">
           Sign Up!
         </Button>
+      </div> */}
       </div>
     </div>
   </div>
